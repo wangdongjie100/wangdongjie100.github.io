@@ -47,9 +47,9 @@
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
   </head>
-  <body>
+  <body style="padding-top: 120px">
     
-<div class="container">
+<div class="container fixed-top" style="background-color: white">
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
@@ -69,13 +69,13 @@
 
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 link-secondary" href="#">Research</a>
-      <a class="p-2 link-secondary" href="#">Teaching</a>
-      <a class="p-2 link-secondary" href="#">Service</a>
-      <a class="p-2 link-secondary" href="#">Interviews</a>
-      <a class="p-2 link-secondary" href="#">Awards</a>
-      <a class="p-2 link-secondary" href="#">Experience</a>
-      <a class="p-2 link-secondary" href="#">Education</a>
+      <a class="p-2 link-secondary" href="#research">Research</a>
+      <a class="p-2 link-secondary" href="#experience">Experience</a>
+      <a class="p-2 link-secondary" href="#teaching">Teaching</a>
+      <a class="p-2 link-secondary" href="#service">Service</a>
+      <a class="p-2 link-secondary" href="#interviews">Interviews</a>
+      <a class="p-2 link-secondary" href="#awards">Awards</a>
+      <a class="p-2 link-secondary" href="#education">Education</a>
       <a class="p-2 link-secondary" href="data/CV.pdf">CV</a>
       <a class="p-2 link-secondary" href="https://scholar.google.com/citations?user=K428NRsAAAAJ&hl=zh-CN"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
         <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
@@ -121,38 +121,6 @@
     </div>
   </div>
 
-<!--  <div class="row mb-2">-->
-<!--    <div class="col-md-6">-->
-<!--      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">-->
-<!--        <div class="col p-4 d-flex flex-column position-static">-->
-<!--          <strong class="d-inline-block mb-2 text-primary">World</strong>-->
-<!--          <h3 class="mb-0">Featured post</h3>-->
-<!--          <div class="mb-1 text-muted">Nov 12</div>-->
-<!--          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>-->
-<!--          <a href="#" class="stretched-link">Continue reading</a>-->
-<!--        </div>-->
-<!--        <div class="col-auto d-none d-lg-block">-->
-<!--          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
-
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="col-md-6">-->
-<!--      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">-->
-<!--        <div class="col p-4 d-flex flex-column position-static">-->
-<!--          <strong class="d-inline-block mb-2 text-success">Design</strong>-->
-<!--          <h3 class="mb-0">Post title</h3>-->
-<!--          <div class="mb-1 text-muted">Nov 11</div>-->
-<!--          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>-->
-<!--          <a href="#" class="stretched-link">Continue reading</a>-->
-<!--        </div>-->
-<!--        <div class="col-auto d-none d-lg-block">-->
-<!--          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
-
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
 
   <div class="row">
     <div class="col-md-12">
@@ -160,7 +128,7 @@
         News
       </h2>
 
-      <article class="blog-post">
+      <article class="blog-post" id="research">
         <h2 class="pb-4 mb-4 fst-italic border-bottom">
           Research
         </h2>
@@ -168,6 +136,17 @@
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
             1.
+            <span class="paper">
+              [AAAI]
+            </span>
+            <b><u>Dongjie Wang</u></b>, Pengyang Wang, Kunpeng Liu, Yuanchun Zhou, Charles Hughes, Yanjie Fu.
+            Reinforced Imitative Graph Representation Learning for Mobile User Profiling: An Adversarial Training Perspective.
+            <span class="con_name">Proceedings of the 35th AAAI Conference on Artificial Intelligence </span>
+            (AAAI2021), 2021.
+            <a href="https://arxiv.org/abs/2101.02634">[Paper]</a>
+          </li>
+          <li class="list-group-item">
+            2.
             <span class="paper">
               [SIGSPATIAL]
             </span>
@@ -178,24 +157,87 @@
             <a href="https://arxiv.org/abs/2008.09912">[Paper]</a>
           </li>
           <li class="list-group-item">
-            2.
+            3.
             <span class="paper">
-              [AAAI]
+              [ICDM]
             </span>
-            <b><u>Dongjie Wang</u></b>, Pengyang Wang, Kunpeng Liu, Yuanchun Zhou, Charles Hughes, Yanjie Fu.
-            Reinforced Imitative Graph Representation Learning for Mobile User Profiling: An Adversarial Training Perspective.
-            <span class="con_name">Proceedings of the 35th AAAI Conference on Artificial Intelligence </span>
-            (AAAI2021), 2021.
-            <a href="https://arxiv.org/abs/2101.02634">[Paper]</a>
+            <b><u>Dongjie Wang</u></b>, Pengyang Wang, Jingbo Zhou, Leilei Sun, Bowen Du, Yanjie Fu.
+            Defending Water Treatment Networks: Exploiting Spatio-temporal Effects for Cyber Attack Detection.
+            <span class="con_name">The 20th IEEE International Conference on Data Mining </span>
+            (ICDM2020), 2020.
+            <a href="https://arxiv.org/abs/2008.12618">[Paper]</a>
           </li>
-          <li class="list-group-item">A third item</li>
-          <li class="list-group-item">A fourth item</li>
-          <li class="list-group-item">And a fifth one</li>
+          <li class="list-group-item">
+            4.
+            <span class="paper">
+              [IJCNN]
+            </span>
+            <b><u>Dongjie Wang</u></b>, Yan Yang, Shangming Ning.
+            DeepSTCL: A Deep Spatio-temporal ConvLSTM for Travel Demand Prediction.
+            <span class="con_name">Proceedings of 2018 International Joint Conference on Neural Networks </span>
+            (IJCNN2018), 2018.
+            <a href="https://arxiv.org/pdf/2009.00096.pdf">[Paper]</a>
+          </li>
         </ul>
         <hr>
+
         <h4 style="text-align: center">Journal Publications</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            1.
+            <span class="paper">
+              [KBS]
+            </span>
+            Wei Zhou, Yan Yang, Yiling Zhang,  <b><u>Dongjie Wang</u></b>, Xiaobo Zhang.
+            Deep Flexible Structured Spatial-Temporal Model for Taxi Capacity Prediction.
+            <span class="con_name">Knowledge-Based Systems </span>
+            (KBS2020), 2020.
+            <a href="https://www.sciencedirect.com/science/article/pii/S0950705120304652?casa_token=BSc9hi01vtIAAAAA:_EjXjzoKj0IJjsguVA9dJKegCvL8-1mMlZFARnM0mwZ7ssM_cUIlgxwwrBLFHnPpGVCjY35MK0k">[Paper]</a>
+          </li>
+        </ul>
         <hr>
       </article>
+
+      <article class="blog-post" id="experience">
+        <h2 class="pb-4 mb-4 fst-italic border-bottom">
+          Experience
+        </h2>
+      </article>
+
+      <article class="blog-post" id="teaching">
+        <h2 class="pb-4 mb-4 fst-italic border-bottom">
+          Teaching
+        </h2>
+      </article>
+
+
+      <article class="blog-post" id="service">
+        <h2 class="pb-4 mb-4 fst-italic border-bottom">
+          Service
+        </h2>
+
+      </article>
+
+      <article class="blog-post" id="interviews">
+        <h2 class="pb-4 mb-4 fst-italic border-bottom">
+          Interviews
+        </h2>
+      </article>
+
+      <article class="blog-post" id="awards">
+        <h2 class="pb-4 mb-4 fst-italic border-bottom">
+          Awards
+        </h2>
+      </article>
+
+      <article class="blog-post" id="education">
+        <h2 class="pb-4 mb-4 fst-italic border-bottom">
+          Education
+        </h2>
+      </article>
+
+
+
 
 
 
