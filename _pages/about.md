@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Student, <a href='https://www.ucf.edu/'>University of Central Florida</a>. 
 
