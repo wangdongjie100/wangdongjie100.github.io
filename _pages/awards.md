@@ -2,11 +2,15 @@
 layout: page
 permalink: /awards/
 title: Awards
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 2
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+- Student Travel Award, ACM SIGKDD, 2022.06
+- UCF Doctoral Research Support Award, 2022.05
+- IEEE ICDM 2021 Best Paper Runner Up Award, 2021.10
+- ACM SIGSPATIAL 2020 Best Paper Runner Up Award, 2020.08
+- Dell EMC Mars Data Challenge Hackathon (Chengdu, China): Second Place, 2018.01
+- Alibaba Tianchi Big Data - UAV Rounte Optimization and Planning Competition (9th/1646 teams), 2017.10
 
-Organize your courses by years, topics, or universities, however you like!

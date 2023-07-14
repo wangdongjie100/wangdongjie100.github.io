@@ -2,11 +2,15 @@
 layout: page
 permalink: /services/
 title: Services
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+- PC Member: The Journal of IEEE Transactions on Big Data (TBD)
+- PC: The International Joint Conference on Artificial Intelligence (IJCAI) 2021, 2022, 2023
+- PC: The Journal of Knowledge-Based Systems (KBS)
+- PC: The Conference on Information and Knowledge Management (CIKM) 2022, 2023
+- PC: The ACM Web Search and Data Mining Conference (WSDM) 2023, 2024
+- PC: AAAI Conference on Artificial Intelligence (AAAI) 2023
+- PC: The ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2023
