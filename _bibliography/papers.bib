@@ -3,31 +3,48 @@
 
 
 
-@inproceedings{wang2023hierarchical,
-  abbr={KDD'23},
-  arxiv={https://arxiv.org/abs/2302.01987},
-  bibtex_show={true},
-  selected={true},
-  title={Interdependent Causal Networks for Root Cause Localization},
-  author={Wang, Dongjie and Chen, Zhengzhang and Ni, Jingchao and Tong, Liang and Wang, Zheng and Fu, Yanjie and Chen, Haifeng},
-  booktitle={Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  pages={in press},
-  year={2023}
+@inproceedings{10.1145/3580305.3599849,
+abbr={KDD'23},
+author = {Wang, Dongjie and Chen, Zhengzhang and Ni, Jingchao and Tong, Liang and Wang, Zheng and Fu, Yanjie and Chen, Haifeng},
+title = {Interdependent Causal Networks for Root Cause Localization},
+year = {2023},
+isbn = {9798400701030},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+html = {https://doi.org/10.1145/3580305.3599849},
+doi = {10.1145/3580305.3599849},
+abstract = {The goal of root cause analysis is to identify the underlying causes of system problems by discovering and analyzing the causal structure from system monitoring data. It is indispensable for maintaining the stability and robustness of large-scale complex systems. Existing methods mainly focus on the construction of a single effective isolated causal network, whereas many real-world systems are complex and exhibit interdependent structures (i.e., multiple networks of a system are interconnected by cross-network links). In interdependent networks, the malfunctioning effects of problematic system entities can propagate to other networks or different levels of system entities. Consequently, ignoring the interdependency results in suboptimal root cause analysis outcomes.In this paper, we propose REASON, a novel framework that enables the automatic discovery of both intra-level (i.e., within-network) and inter-level (i.e., across-network) causal relationships for root cause localization. REASON consists of Topological Causal Discovery (TCD) and Individual Causal Discovery (ICD). The TCD component aims to model the fault propagation in order to trace back to the root causes. To achieve this, we propose novel hierarchical graph neural networks to construct interdependent causal networks by modeling both intra-level and inter-level non-linear causal relations. Based on the learned interdependent causal networks, we then leverage random walk with restarts to model the network propagation of a system fault. The ICD component focuses on capturing abrupt change patterns of a single system entity. This component examines the temporal patterns of each entity's metric data (i.e., time series), and estimates its likelihood of being a root cause based on the Extreme Value theory. Combining the topological and individual causal scores, the top K system entities are identified as root causes. Extensive experiments on three real-world datasets validate the effectiveness of the proposed framework.},
+booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {5051–5060},
+numpages = {10},
+keywords = {interdependent networks, network propagation, graph neural networks, causal structure learning, root cause analysis},
+location = {Long Beach, CA, USA},
+series = {KDD '23},
+selected={true},
+bibtex_show={true}
 }
 
 
-@inproceedings{wang2023incre,
-  abbr={KDD'23},
-  arxiv={https://arxiv.org/abs/2305.10638},
-  bibtex_show={true},
-  title={Incremental Causal Graph Learning for Online Root Cause Analysis},
-  author={Wang, Dongjie and Chen, Zhengzhang and Fu, Yanjie and Liu, Yanchi and Chen, Haifeng},
-  booktitle={Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  pages={in press},
-  selected={true},
-  year={2023}
+@inproceedings{10.1145/3580305.3599392,
+abbr={KDD'23},
+author = {Wang, Dongjie and Chen, Zhengzhang and Fu, Yanjie and Liu, Yanchi and Chen, Haifeng},
+title = {Incremental Causal Graph Learning for Online Root Cause Analysis},
+year = {2023},
+isbn = {9798400701030},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+html = {https://doi.org/10.1145/3580305.3599392},
+doi = {10.1145/3580305.3599392},
+abstract = {The task of root cause analysis (RCA) is to identify the root causes of system faults/failures by analyzing system monitoring data. Efficient RCA can greatly accelerate system failure recovery and mitigate system damages or financial losses. However, previous research has mostly focused on developing offline RCA algorithms, which often require manually initiating the RCA process, a significant amount of time and data to train a robust model, and then being retrained from scratch for a new system fault.In this paper, we propose CORAL, a novel online RCA framework that can automatically trigger the RCA process and incrementally update the RCA model. CORAL consists of Trigger Point Detection, Incremental Disentangled Causal Graph Learning, and Network Propagation-based Root Cause Localization. The Trigger Point Detection component aims to detect system state transitions automatically and in near-real-time. To achieve this, we develop an online trigger point detection approach based on multivariate singular spectrum analysis and cumulative sum statistics. To efficiently update the RCA model, we propose an incremental disentangled causal graph learning approach to decouple the state-invariant and state-dependent information. After that, CORAL applies a random walk with restarts to the updated causal graph to accurately identify root causes. The online RCA process terminates when the causal graph and the generated root cause list converge. Extensive experiments on three real-world datasets demonstrate the effectiveness and superiority of the proposed framework.},
+booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {2269–2278},
+numpages = {10},
+keywords = {causal structure learning, incremental learning, trigger point detection, disentangled graph learning, root cause analysis},
+location = {Long Beach, CA, USA},
+series = {KDD '23},
+selected={true},
+bibtex_show={true}
 }
-
 
 
 @inproceedings{wang2023human,
@@ -128,23 +145,23 @@
   @article{10.1007/s10115-022-01812-3,
   abbr={KAIS},
   bibtex_show={true},
-author = {Liu, Kunpeng and Wang, Dongjie and Du, Wan and Wu, Dapeng&nbsp;Oliver and Fu, Yanjie},
-title = {Interactive Reinforced Feature Selection with Traverse Strategy},
-year = {2023},
-issue_date = {May 2023},
-publisher = {Springer-Verlag},
-address = {Berlin, Heidelberg},
-volume = {65},
-number = {5},
-issn = {0219-1377},
-url = {https://doi.org/10.1007/s10115-022-01812-3},
-html = {https://doi.org/10.1007/s10115-022-01812-3},
-abstract = {In this paper, we propose a single-agent Monte Carlo-based reinforced feature selection method, as well as two efficiency improvement strategies, i.e., early stopping strategy and reward-level interactive strategy. Feature selection is one of the most important technologies in data prepossessing, aiming to find the optimal feature subset for a given downstream machine learning task. Enormous research has been done to improve its effectiveness and efficiency. Recently, the multi-agent reinforced feature selection (MARFS) has achieved great success in improving the performance of feature selection. However, MARFS suffers from the heavy burden of computational cost, which greatly limits its application in real-world scenarios. In this paper, we propose an efficient reinforcement feature selection method, which uses one agent to traverse the whole feature set and decides to select or not select each feature one by one. Specifically, we first develop one behavior policy and use it to traverse the feature set and generate training data. And then, we evaluate the target policy based on the training data and improve the target policy by Bellman equation. Besides, we conduct the importance sampling in an incremental way and propose an early stopping strategy to improve the training efficiency by the removal of skew data. In the early stopping strategy, the behavior policy stops traversing with a probability inversely proportional to the importance sampling weight. In addition, we propose a reward-level and training-level interactive strategy to improve the training efficiency via external advice. What’s more, we propose an incremental descriptive statistics method to represent the state with low computational cost. Finally, we design extensive experiments on real-world data to demonstrate the superiority of the proposed method.},
-journal = {Knowl. Inf. Syst.},
-month = {jan},
-pages = {1935–1962},
-numpages = {28},
-keywords = {Monte Carlo, Reinforcement learning, Feature selection}
+  author = {Liu, Kunpeng and Wang, Dongjie and Du, Wan and Wu, Dapeng&nbsp;Oliver and Fu, Yanjie},
+  title = {Interactive Reinforced Feature Selection with Traverse Strategy},
+  year = {2023},
+  issue_date = {May 2023},
+  publisher = {Springer-Verlag},
+  address = {Berlin, Heidelberg},
+  volume = {65},
+  number = {5},
+  issn = {0219-1377},
+  url = {https://doi.org/10.1007/s10115-022-01812-3},
+  html = {https://doi.org/10.1007/s10115-022-01812-3},
+  abstract = {In this paper, we propose a single-agent Monte Carlo-based reinforced feature selection method, as well as two efficiency improvement strategies, i.e., early stopping strategy and reward-level interactive strategy. Feature selection is one of the most important technologies in data prepossessing, aiming to find the optimal feature subset for a given downstream machine learning task. Enormous research has been done to improve its effectiveness and efficiency. Recently, the multi-agent reinforced feature selection (MARFS) has achieved great success in improving the performance of feature selection. However, MARFS suffers from the heavy burden of computational cost, which greatly limits its application in real-world scenarios. In this paper, we propose an efficient reinforcement feature selection method, which uses one agent to traverse the whole feature set and decides to select or not select each feature one by one. Specifically, we first develop one behavior policy and use it to traverse the feature set and generate training data. And then, we evaluate the target policy based on the training data and improve the target policy by Bellman equation. Besides, we conduct the importance sampling in an incremental way and propose an early stopping strategy to improve the training efficiency by the removal of skew data. In the early stopping strategy, the behavior policy stops traversing with a probability inversely proportional to the importance sampling weight. In addition, we propose a reward-level and training-level interactive strategy to improve the training efficiency via external advice. What’s more, we propose an incremental descriptive statistics method to represent the state with low computational cost. Finally, we design extensive experiments on real-world data to demonstrate the superiority of the proposed method.},
+  journal = {Knowl. Inf. Syst.},
+  month = {jan},
+  pages = {1935–1962},
+  numpages = {28},
+  keywords = {Monte Carlo, Reinforcement learning, Feature selection}
 }
 
 
@@ -215,6 +232,7 @@ keywords = {Monte Carlo, Reinforcement learning, Feature selection}
   volume={65},
   number={3},
   pages={1337--1364},
+  issue_date={May},
   year={2023},
   publisher={Springer}
 }
@@ -298,6 +316,30 @@ keywords = {Monte Carlo, Reinforcement learning, Feature selection}
   booktitle={Proceedings of the 29th International Conference on Advances in Geographic Information Systems},
   pages={450--453},
   year={2021}
+}
+
+@inproceedings{xiao2023beyond,
+  abbr={ICDM'23},
+  bibtex_show={true},
+  html={},
+  title={Beyond Discrete Selection: Continuous Embedding Space Optimization for Generative Feature Selection},
+  author={Xiao, Meng and Wang, Dongjie and Wu, Min and Wang, Pengfei and Zhou, Yuanchun and Fu, Yanjie },
+  booktitle={2023 IEEE international conference on data mining (ICDM)},
+  pages={in preprint},
+  year={2023},
+  organization={IEEE}
+}
+
+@inproceedings{ying2023self-optimizing,
+  abbr={ICDM'23},
+  bibtex_show={true},
+  html={},
+  title={Self-optimizing Feature Generation via Categorical Hashing Representation and Hierarchical Reinforcement Crossing},
+  author={Ying, Wangyang and Wang, Dongjie and Liu, Kunpeng and Sun, Leilei and Fu, Yanjie },
+  booktitle={2023 IEEE international conference on data mining (ICDM)},
+  pages={in preprint},
+  year={2023},
+  organization={IEEE}
 }
 
 
