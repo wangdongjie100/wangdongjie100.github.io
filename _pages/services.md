@@ -13,6 +13,7 @@ nav_order: 3
 - PC: The ACM Web Search and Data Mining Conference (WSDM) 2023, 2024
 - PC: AAAI Conference on Artificial Intelligence (AAAI) 2023, 2024
 - PC: The ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2023
+- PC: The SIAM International Conference on Data Mining (SDM) 2024
 - PC: The Journal of Knowledge-Based Systems (KBS)
 - PC: The Journal of IEEE Transactions on Big Data (TBD)
 - PC: The Journal of IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
