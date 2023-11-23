@@ -7,7 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-- PC Member: The Journal of IEEE Transactions on Big Data (TBD)
 - PC: The International Joint Conference on Artificial Intelligence (IJCAI) 2021, 2022, 2023
 - PC: The Conference on Information and Knowledge Management (CIKM) 2022, 2023
 - PC: The ACM Web Search and Data Mining Conference (WSDM) 2023, 2024
@@ -17,3 +16,4 @@ nav_order: 3
 - PC: The Journal of Knowledge-Based Systems (KBS)
 - PC: The Journal of IEEE Transactions on Big Data (TBD)
 - PC: The Journal of IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+- PC: The Journal of ACM Transactions on Knowledge Discovery from Data (TKDD)
