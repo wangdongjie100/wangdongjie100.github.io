@@ -17,3 +17,4 @@ nav_order: 3
 - PC: The Journal of IEEE Transactions on Big Data (TBD)
 - PC: The Journal of IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - PC: The Journal of ACM Transactions on Knowledge Discovery from Data (TKDD)
+- PC: The Journal of ACM Transactions on Intelligent Systems and Technology (TIST)
