@@ -28,6 +28,8 @@ I have published 25+ papers in prestigious journals and conferences, including D
     [[KAIS'23]](https://link.springer.com/article/10.1007/s10115-022-01801-6)
     - Transformer based Urban Planner:
     [[AAAI'23]](https://ojs.aaai.org/index.php/AAAI/article/view/25589)
+    - Flow-based Urban Planner:
+    [[SDM'24]]()
 
 - **Anomaly Detection and Root Cause Analysis**
     - Anomaly Detection: [[ICDM'20]](https://ieeexplore.ieee.org/abstract/document/9338292)
