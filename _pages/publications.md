@@ -43,7 +43,7 @@ I have published 30+ papers in prestigious journals and conferences, including D
     [[AAAI'21]](https://ojs.aaai.org/index.php/AAAI/article/view/16567),
     [[TBD'23]](https://ieeexplore.ieee.org/abstract/document/9921335)
 
-
+Here are some selected papers. You can find all my publications on my [[Google Scholar profile]](https://scholar.google.com/citations?user=K428NRsAAAAJ&hl=en).
 
 <!-- _pages/publications.md -->
 <div class="publications">
