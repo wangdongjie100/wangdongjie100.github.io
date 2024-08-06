@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations! My two papers were accepted by the SDM 2023 conference. :fireworks:
+Congratulations! Two papers have been accepted by the SDM 2023 conference. :fireworks:

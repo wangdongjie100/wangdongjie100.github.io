@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations! My four papers was accepted by the CIKM 2024 conference. :fireworks:
+Congratulations! Four papers have been accepted by the CIKM 2024 conference. :fireworks:

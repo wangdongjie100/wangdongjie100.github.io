@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-Congratulations! My two papers were accepted by the AAAI 2023 conference.
+Congratulations! Two papers have been accepted by the AAAI 2023 conference.

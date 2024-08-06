@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-Congratulations! My paper was accepted by the SIGKDD 2022 conference.
+Congratulations! One paper has been accepted by the SIGKDD 2022 conference.
