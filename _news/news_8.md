@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations! My paper was accepted by the NeurIPS 2023 conference. :fireworks:
+Congratulations! One paper has been accepted by the NeurIPS 2023 conference. :fireworks:

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations! My one papers was accepted by the KDD 2024 conference. :fireworks:
+Congratulations! One papers has been accepted by the KDD 2024 conference. :fireworks:
