@@ -12,7 +12,7 @@ nav_order: 6
 <div class="row">
     <!-- Member 1 -->
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.html path="assets/img/TaoZhe.png" title="Tao Zhe" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/TaoZhe.jpg" title="Tao Zhe" class="img-fluid rounded z-depth-1" %}
         <p><strong>Tao Zhe</strong></p>
         <p>PhD: University of Kansas (2025 Spring)</p>
         <p>Master: University of Glasgow</p>
