@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks
 description: 
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 -  Synced Interview, ["Can AI Reimagine City Configuration and Automate Urban Planning?"](https://medium.com/syncedreview/can-ai-reimagine-city-configuration-and-automate-urban-planning-121666e509da)

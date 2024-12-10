@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: 
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 - January. 2025 - May. 2025 Lecturer, University of Kansas, EECS 649 Introduction to AI

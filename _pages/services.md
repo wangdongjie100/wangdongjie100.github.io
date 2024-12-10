@@ -4,7 +4,7 @@ permalink: /services/
 title: Services
 description:
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 - PC: The International Joint Conference on Artificial Intelligence (IJCAI) 2021, 2022, 2023
