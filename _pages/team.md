@@ -26,6 +26,15 @@ nav_order: 6
         <p>Master: Oregon State University</p>
         <p>Interested in reinforcement learning, data science, and LLM.</p>
     </div>
+
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.html path="assets/img/Anahita.jpg" title="Anahita Memar" class="img-fluid rounded z-depth-1" %}
+        <p><strong>Anahita Memar</strong></p>
+        <p>PhD: University of Kansas (2025 Spring)</p>
+        <p>Master: University of Kansas</p>
+        <p>Interested in deep learning, data analysis, and advanced programming.</p>
+    </div>
+
 </div>
 
 
