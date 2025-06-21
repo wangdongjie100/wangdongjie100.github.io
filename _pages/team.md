@@ -21,7 +21,7 @@ nav_order: 6
     <!-- Member 2 -->
     <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.html path="assets/img/RuiLiu.jpg" title="Rui Liu" class="img-fluid rounded z-depth-1" %}
-        <p><strong>Rui Liu</strong></p>
+        <p><strong><a href="https://rayliu1103.github.io/">Rui Liu</a></strong></p>
         <p>PhD: University of Kansas (2025 Fall)</p>
         <p>Master: Oregon State University</p>
         <p>Interested in reinforcement learning, data science, and LLM.</p>
