@@ -7,8 +7,8 @@ nav: true
 nav_order: 2
 ---
 
-## **Program Committee**
-
+## **Program Committee/Senior Program Committee/Area Chair**
+- **SPC, AAAI Conference on Artificial Intelligence (AAAI)**: 2026
 - **ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)**: 2023, 2024, 2025, 2026  
 - **International Joint Conference on Artificial Intelligence (IJCAI)**: 2021, 2022, 2023, 2024, 2025  
 - **ACM International Conference on Information and Knowledge Management (CIKM)**: 2022, 2023  
