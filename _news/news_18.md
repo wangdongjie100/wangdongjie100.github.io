@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations! One paper have been accepted by IJCAI 2025. :fireworks:
+Congratulations! One paper has been accepted by IJCAI 2025. :fireworks:
