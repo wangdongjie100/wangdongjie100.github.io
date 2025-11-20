@@ -41,6 +41,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025.11
+      items: 
+        - ACM CIKM Best Paper Candidate Award
     - year: 2022.12
       items: 
         - AAAI Travel Award
@@ -52,7 +55,7 @@
         - UCF Doctoral Research Support Award
     - year: 2021.10
       items:
-        - IEEE ICDM 2021 Best Paper Runner-up Award
+        - IEEE ICDM 2021 Best Paper Candidate Award
     - year: 2020.08
       items:
         - ACM SIGSPATIAL 2020 Best Paper Runner-up Award
