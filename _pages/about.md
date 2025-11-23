@@ -22,7 +22,7 @@ He has published over 70 papers in top-tier conferences and journals, including 
 
 His recent research on automated urban planning has been featured by [Synced AI](https://medium.com/syncedreview/can-ai-reimagine-city-configuration-and-automate-urban-planning-121666e509da) and [UCF Today](https://www.ucf.edu/news/where-artificial-intelligence-meets-urban-planning/), highlighting the broader societal impact of his work.
 
-He actively serves the research community as a program committee member or reviewer for *NeurIPS*, *ICML*, *KDD*, *AAAI*, *TPAMI*, *TKDD*, and *Nature Cities*.
+He actively serves the research community as a program committee member or reviewer for *NeurIPS*, *ICML*, *KDD*, *CVPR*, *AAAI*, *TPAMI*, *TKDD*, and *Nature Cities*.
 
 ---
 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations! My CIKM was selected as a Best Paper Candidate. :fireworks:
+Congratulations! My CIKM paper was selected as a Best Paper Candidate. :fireworks:
