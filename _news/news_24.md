@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations! Two paper has been accepted by AAAI 2026. :fireworks:
+Congratulations! Two papers have been accepted by AAAI 2026. :fireworks:
