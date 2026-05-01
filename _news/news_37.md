@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Congratulations! One paper has been accepted to the ICML conference. :fireworks:
+Congratulations! One paper has been accepted to the ICML conference.:fireworks:
 
