@@ -35,8 +35,3 @@ The [University of Kansas](https://ku.edu/) (KU), the state's flagship universit
 
 ---
 
-<h4>Announcement</h4>
-
-We will host the third **AI for Data Editing** at KDD 2025 📊. If you are interested in this topic, we welcome you to submit your paper 📝. For more details, please visit [this link](https://ai-for-data-editing.github.io/KDD25-workshop/).
-
----
