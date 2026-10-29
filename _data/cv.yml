@@ -25,6 +25,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Professor
+      institution: School of Information Science and Technology, Northeast Normal University
+      year: 2026.08 - Now
+      description: NSFC Excellent Young Scientists Fund Program (Overseas) recipient
+    - title: Assistant Professor
+      institution: Electrical Engineering & Computer Science, University of Kansas
+      year: 2024.08 - 2026.08
+      description: Research and teaching in data mining and machine learning
     - title: Research Intern
       institution: NOKIA Bell Labs
       year: 2023.05 - 2023.07
@@ -44,6 +52,9 @@
     - year: 2025.11
       items: 
         - ACM CIKM Best Paper Candidate Award
+    - year: 2023
+      items:
+        - NeurIPS Spotlight Paper Award (Top 3%)
     - year: 2022.12
       items: 
         - AAAI Travel Award
@@ -59,4 +70,3 @@
     - year: 2020.08
       items:
         - ACM SIGSPATIAL 2020 Best Paper Runner-up Award
-    

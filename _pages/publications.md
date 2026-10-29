@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: page
 permalink: /publications/
 title: Publications
@@ -7,7 +8,8 @@ nav: true
 nav_order: 1
 ---
 
-I have published 30+ papers in prestigious journals and conferences, including DM venues (e.g., KDD\*3, WWW\*1, ICDM\*5, TKDE\*2, KAIS\*2) and AI venues (e.g., AAAI\*3). Among them, I got two best paper runner-ups in [SIGSPATIAL'20](https://dl.acm.org/doi/abs/10.1145/3397536.3422268) and [ICDM'21](https://ieeexplore.ieee.org/abstract/document/9679173) respectively.  The representative papers can be categorized as follows:
+I have published over 70 papers in prestigious journals and conferences, including DM venues (e.g., KDD, WWW, ICDM, TKDE, KAIS) and AI venues (e.g., NeurIPS, AAAI, ICML, ACL). Among them, I received best paper runner-up/finalist awards at [SIGSPATIAL'20](https://dl.acm.org/doi/abs/10.1145/3397536.3422268) and [ICDM'21](https://ieeexplore.ieee.org/abstract/document/9679173), a Spotlight Paper at NeurIPS 2023, and a Best Paper Candidate Award at ACM CIKM 2025.  The representative papers can be categorized as follows:
+
 
 - **Data-centric AI** 
     - Automated Feature Selection Learning: 

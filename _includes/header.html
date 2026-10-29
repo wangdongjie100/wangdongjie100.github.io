@@ -4,8 +4,8 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {% if page.permalink != '/' and page.permalink != '/zh/' -%}
+          <a class="navbar-brand title font-weight-lighter" href="{% if page.lang == 'zh' %}{{ '/zh/' | relative_url }}{% else %}{{ site.baseurl }}/{% endif %}">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
@@ -37,16 +37,26 @@
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
-              {%- for page in site.pages -%}
-                {% if page.permalink == '/' %}
-                  {% assign about_title = page.title %}
+              {%- assign current_lang = page.lang | default: 'en' -%}
+
+              {%- for page_item in site.pages -%}
+                {% if current_lang == 'zh' %}
+                  {% if page_item.permalink == '/zh/' %}
+                    {% assign about_title = page_item.title %}
+                    {% assign about_permalink = '/zh/' %}
+                  {% endif %}
+                {% else %}
+                  {% if page_item.permalink == '/' %}
+                    {% assign about_title = page_item.title %}
+                    {% assign about_permalink = '/' %}
+                  {% endif %}
                 {% endif %}
               {% endfor %}
 
               <!-- About -->
-              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
-                  {%- if page.permalink == '/' -%}
+              <li class="nav-item {% if page.permalink == about_permalink %}active{% endif %}">
+                <a class="nav-link" href="{{ about_permalink | relative_url }}">{{ about_title }}
+                  {%- if page.permalink == about_permalink -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -62,10 +72,12 @@
               </li>
               {%- endif %}
 
-              <!-- Other pages -->
+              <!-- Other pages (language-filtered) -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
+              {%- assign p_lang = p.lang | default: 'en' -%}
+              {%- if p_lang == current_lang -%}
               {%- if p.dropdown %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
@@ -93,7 +105,26 @@
               </li>
               {%- endif -%}
               {%- endif -%}
+              {%- endif -%}
               {% endfor -%}
+
+              <!-- Language toggle 中 / EN -->
+              <li class="nav-item">
+                {%- if current_lang == 'zh' -%}
+                {%- assign en_target = page.permalink | default: '/zh/' | replace_first: '/zh', '' -%}
+                {%- if en_target == '' or en_target == nil -%}{%- assign en_target = '/' -%}{%- endif -%}
+                <a class="nav-link font-weight-bold" href="{{ en_target | relative_url }}" title="Switch to English">EN</a>
+                {%- else -%}
+                {%- assign zh_path = page.permalink | default: '/' -%}
+                {%- if zh_path == '/' -%}
+                  {%- assign zh_target = '/zh/' -%}
+                {%- else -%}
+                  {%- assign zh_target = '/zh' | append: zh_path -%}
+                {%- endif -%}
+                <a class="nav-link font-weight-bold" href="{{ zh_target | relative_url }}" title="切换到中文">中</a>
+                {%- endif -%}
+              </li>
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

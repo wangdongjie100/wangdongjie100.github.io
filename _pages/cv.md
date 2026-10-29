@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: cv
 permalink: /cv/
 title: CV
