@@ -8,7 +8,56 @@ nav: true
 nav_order: 6
 ---
 
+## Current Team
 
+Northeast Normal University
+
+### PhD
+
+<div class="row justify-content-center">
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/wang_zifan.jpg" title="Zifan Wang" alt="Zifan Wang" class="img-fluid rounded z-depth-1" %}
+        <p><strong>Zifan Wang (王子凡)</strong></p>
+        <p>PhD student</p>
+    </div>
+</div>
+
+### Master's
+
+<div class="row justify-content-center">
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/guo_nanpu.jpg" title="Nanpu Guo" alt="Nanpu Guo" class="img-fluid rounded z-depth-1" %}
+        <p><strong>Nanpu Guo (郭楠埔)</strong></p>
+        <p>Master's student</p>
+    </div>
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/xiao_tao.jpg" title="Tao Xiao" alt="Tao Xiao" class="img-fluid rounded z-depth-1" %}
+        <p><strong>Tao Xiao (肖涛)</strong></p>
+        <p>Master's student</p>
+    </div>
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/xiao_yan.jpg" title="Yan Xiao" alt="Yan Xiao" class="img-fluid rounded z-depth-1" %}
+        <p><strong>Yan Xiao (肖燕)</strong></p>
+        <p>Master's student</p>
+    </div>
+</div>
+
+### Undergraduate
+
+<div class="row justify-content-center">
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/han_guangteng.jpg" title="Guangteng Han" alt="Guangteng Han" class="img-fluid rounded z-depth-1" %}
+        <p><strong>Guangteng Han (韩光腾)</strong></p>
+        <p>Undergraduate student</p>
+    </div>
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/lu_yuxiang.jpg" title="Yuxiang Lu" alt="Yuxiang Lu" class="img-fluid rounded z-depth-1" %}
+        <p><strong>Yuxiang Lu (鹿宇祥)</strong></p>
+        <p>Undergraduate student</p>
+    </div>
+</div>
+
+## Former Students (University of Kansas)
 
 <div class="row">
     <!-- Member 1 -->
@@ -37,8 +86,3 @@ nav_order: 6
     </div>
 
 </div>
-
-
-
-
-

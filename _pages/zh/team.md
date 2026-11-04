@@ -8,6 +8,57 @@ nav: true
 nav_order: 6
 ---
 
+## 现任成员
+
+东北师范大学
+
+### 博士生
+
+<div class="row justify-content-center">
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/wang_zifan.jpg" title="王子凡" alt="王子凡" class="img-fluid rounded z-depth-1" %}
+        <p><strong>王子凡 (Zifan Wang)</strong></p>
+        <p>博士生</p>
+    </div>
+</div>
+
+### 硕士生
+
+<div class="row justify-content-center">
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/guo_nanpu.jpg" title="郭楠埔" alt="郭楠埔" class="img-fluid rounded z-depth-1" %}
+        <p><strong>郭楠埔 (Nanpu Guo)</strong></p>
+        <p>硕士生</p>
+    </div>
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/xiao_tao.jpg" title="肖涛" alt="肖涛" class="img-fluid rounded z-depth-1" %}
+        <p><strong>肖涛 (Tao Xiao)</strong></p>
+        <p>硕士生</p>
+    </div>
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/xiao_yan.jpg" title="肖燕" alt="肖燕" class="img-fluid rounded z-depth-1" %}
+        <p><strong>肖燕 (Yan Xiao)</strong></p>
+        <p>硕士生</p>
+    </div>
+</div>
+
+### 本科生
+
+<div class="row justify-content-center">
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/han_guangteng.jpg" title="韩光腾" alt="韩光腾" class="img-fluid rounded z-depth-1" %}
+        <p><strong>韩光腾 (Guangteng Han)</strong></p>
+        <p>本科生</p>
+    </div>
+    <div class="col-sm-4 mt-3 text-center">
+        {% include figure.html path="assets/img/lu_yuxiang.jpg" title="鹿宇祥" alt="鹿宇祥" class="img-fluid rounded z-depth-1" %}
+        <p><strong>鹿宇祥 (Yuxiang Lu)</strong></p>
+        <p>本科生</p>
+    </div>
+</div>
+
+## 原成员（堪萨斯大学）
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.html path="assets/img/TaoZhe.jpg" title="Tao Zhe" class="img-fluid rounded z-depth-1" %}
