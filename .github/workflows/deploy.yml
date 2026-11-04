@@ -16,15 +16,17 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # ubuntu-latest is 26.04, and setup-ruby does not publish Ruby 3.2.2 for
+    # that image (404). 24.04 is the image used by the last successful deploy.
+    # '3.2' tracks the newest 3.2 patch that image still provides.
+    runs-on: ubuntu-24.04
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.2.2'
+        ruby-version: '3.2'
         bundler-cache: true
     - name: Install and Build 🔧
       run: |
